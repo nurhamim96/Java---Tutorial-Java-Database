@@ -18,6 +18,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <junit.version>5.7.0</junit.version>
     <mysql.version>8.0.23</mysql.version>
+    <hikariCP.version>3.4.5</hikariCP.version>
   </properties>
 
   <dependencies>
@@ -31,6 +32,11 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>${hikariCP.version}</version>
     </dependency>
   </dependencies>
 
